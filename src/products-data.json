@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "imageUrl": "https://fastly.picsum.photos/id/373/600/600.jpg?hmac=tchLOHko68_24oRUsh7H9vkNO2Ey4c5XpXFpUL8YM4I",
+        "price": 101
+    },
+    {
+        "id": "2",
+        "imageUrl": "https://fastly.picsum.photos/id/1080/600/600.jpg?hmac=xMzJ6qMqgNPEpWsyg7iqCcXTNXbehg6zrZhl5QxmivQ",
+        "price": 102
+    },
+    {
+        "id": "3",
+        "imageUrl": "https://fastly.picsum.photos/id/555/600/600.jpg?hmac=TLfCryoajVNuDpYn5d_lhCkm3nEJryv8qubZsd4RLfY",
+        "price": 103
+    },
+    {
+        "id": "4",
+        "imageUrl": "https://fastly.picsum.photos/id/364/600/600.jpg?hmac=WPMy0eufcWhJqW7okjWtL7G9vx0PXtrVcEJSwQnjR2I",
+        "price": 104
+    }
+]
