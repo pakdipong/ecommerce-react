@@ -2,11 +2,9 @@ import { Link, useParams } from "react-router-dom"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import productsData from "../products-data.json"
-import Button from "../components/Button"
 
 function Product() {
   const { id } = useParams()
-
   const data: any = productsData.find((product) => (
     product.id == id
   ))
@@ -21,6 +19,10 @@ function Product() {
     )
   }
 
+  function setProductItem() {
+    localStorage.setItem('item', JSON.stringify(data))
+  }
+
   return (
     <>
       <Header />
@@ -33,7 +35,11 @@ function Product() {
             <h1 className="text-3xl font-bold">Product {data.id}</h1>
             <h1 className="text-xl font-bold my-6">${data.price}</h1>
             <Link to={'/checkout'}>
-              <Button text="Add to Cart" />
+              <button
+                type='submit'
+                className="btn btn-primary text-xl font-bold w-full"
+                onClick={setProductItem}
+              >Add to Cart</button>
             </Link>
             <p className="my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere doloremque voluptas vitae, esse doloribus hic vel. Iusto corporis cum quibusdam itaque reprehenderit quia, atque natus officia. Illo similique eum nostrum!</p>
             <details className="collapse collapse-arrow rounded-none border-y">
@@ -41,7 +47,7 @@ function Product() {
               <div className="collapse-content">
                 <div>
                   <h1 className="text-lg font-bold">Name</h1>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis rem eligendi veritatis, laudantium minima esse earum perspiciatis animi enim corporis ipsa rerum aut provident recusandae necessitatibus sed vero, repudiandae nemo.</p>
                 </div>
               </div>
             </details>

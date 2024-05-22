@@ -2,7 +2,7 @@
     {
         "id": "1",
         "imageUrl": "https://fastly.picsum.photos/id/373/600/600.jpg?hmac=tchLOHko68_24oRUsh7H9vkNO2Ey4c5XpXFpUL8YM4I",
-        "price": 101
+        "price": 11
     },
     {
         "id": "2",
@@ -12,11 +12,31 @@
     {
         "id": "3",
         "imageUrl": "https://fastly.picsum.photos/id/555/600/600.jpg?hmac=TLfCryoajVNuDpYn5d_lhCkm3nEJryv8qubZsd4RLfY",
-        "price": 103
+        "price": 53
     },
     {
         "id": "4",
         "imageUrl": "https://fastly.picsum.photos/id/364/600/600.jpg?hmac=WPMy0eufcWhJqW7okjWtL7G9vx0PXtrVcEJSwQnjR2I",
-        "price": 104
+        "price": 48
+    },
+    {
+        "id": "5",
+        "imageUrl": "https://fastly.picsum.photos/id/859/600/600.jpg?hmac=xepFxeogyk6l3g9L3iqsATVWaE-JapYVrIxjsFkiN6s",
+        "price": 105
+    },
+    {
+        "id": "6",
+        "imageUrl": "https://fastly.picsum.photos/id/835/600/600.jpg?hmac=ExJqcXeiqUZH7eZOGz7KHVJNCIvj9ne1jACoQFk7dsE",
+        "price": 82
+    },
+    {
+        "id": "7",
+        "imageUrl": "https://fastly.picsum.photos/id/319/600/600.jpg?hmac=hEZpcP7U8fsR-44_zk6uIngOKrQJFQjndw8WXbkrl_A",
+        "price": 13
+    },
+    {
+        "id": "8",
+        "imageUrl": "https://fastly.picsum.photos/id/718/600/600.jpg?hmac=XqzoCp0qspH20Tgw5roZWtaVx6dpoIgSv6z0IHtMJlc",
+        "price": 94
     }
 ]

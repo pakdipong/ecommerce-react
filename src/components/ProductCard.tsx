@@ -8,20 +8,20 @@ type ProductCardProps = {
 
 function ProductCard({ productId, imageUrl, price }: ProductCardProps) {
     return (
-        <div className="card w-full bg-base-100 rounded-1 p-1 hover:bg-base-300 duration-300">
-            <figure>
-                <Link to={`/product/${productId}`}>
+        <Link to={`/product/${productId}`}>
+            <div className="card w-full bg-base-100 rounded-1 p-1 border-2 hover:bg-base-300 duration-300">
+                <figure>
                     <img className="w-full" src={imageUrl} alt="Product" />
-                </Link>
-            </figure>
-            <div className="card-body p-1">
-                <h2 className="card-title">
-                    Product {productId}
-                    <div className="badge badge-secondary">NEW</div>
-                </h2>
-                <p>${price}</p>
+                </figure>
+                <div className="card-body p-1">
+                    <h2 className="card-title justify-between">
+                        Product {productId}
+                        <div className="badge badge-secondary">NEW</div>
+                    </h2>
+                    <p>${price}</p>
+                </div>
             </div>
-        </div>
+        </Link>
     )
 }
 
